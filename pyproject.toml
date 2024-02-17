@@ -1,0 +1,34 @@
+[project]
+version = "0.0.0"
+name = "lidl_plus"
+description = "This Custom Component provides Lidl Plus coupons as a To Do List."
+readme = "README.md"
+requires-python = ">= 3.12"
+authors = [
+    { name = "t0bst4r" }
+]
+maintainers = [
+    { name = "t0bst4r" }
+]
+license = { file = "LICENSE.md" }
+
+[project.urls]
+Homepage = "https://github.com/t0bst4r/hacs-lidl_plus"
+Issues = "https://github.com/t0bst4r/hacs-lidl_plus/issues"
+Releases = "https://github.com/t0bst4r/hacs-lidl_plus/releases"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning:homeassistant.components.*:"
+]
+
+[tool.commitizen]
+version = "0.0.0"
+version_files = [
+    "pyproject.toml:version",
+    "custom_components/lidl_plus/manifest.json:version"
+]
+changelog_file = "CHANGELOG.md"
+annotated_tag = true
+major_version_zero = true
+version_scheme = "semver"

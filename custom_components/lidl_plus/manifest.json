@@ -1,0 +1,12 @@
+{
+  "domain": "lidl_plus",
+  "name": "Lidl Plus",
+  "codeowners": ["@t0bst4r"],
+  "config_flow": true,
+  "documentation": "https://github.com/t0bst4r/hacs-lidl_plus",
+  "issue_tracker": "https://github.com/t0bst4r/hacs-lidl_plus/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": ["lidl-plus==0.3.5"],
+  "version": "0.0.0"
+}
