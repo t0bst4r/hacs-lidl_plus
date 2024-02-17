@@ -1,5 +1,5 @@
 [project]
-version = "0.0.0"
+version = "0.1.0"
 name = "lidl_plus"
 description = "This Custom Component provides Lidl Plus coupons as a To Do List."
 readme = "README.md"
@@ -23,7 +23,7 @@ filterwarnings = [
 ]
 
 [tool.commitizen]
-version = "0.0.0"
+version = "0.1.0"
 version_files = [
     "pyproject.toml:version",
     "custom_components/lidl_plus/manifest.json:version"
