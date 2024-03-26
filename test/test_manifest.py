@@ -5,7 +5,7 @@ from custom_components.lidl_plus.const import DOMAIN
 
 
 def test_manifest():
-    root_dir = Path(__file__).parent.parent.parent
+    root_dir = Path(__file__).parent.parent
     with open(f"{root_dir}/custom_components/lidl_plus/manifest.json") as f:
         manifest = json.load(f)
     assert manifest["domain"] == DOMAIN
